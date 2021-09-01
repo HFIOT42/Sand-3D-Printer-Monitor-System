@@ -30,7 +30,6 @@ def sendMessage(message):
 
     print(rows[0])
     receiver_email = rows[0]
-    #receiver_email = 'mattkday00@gmail.com'
 
     try:
         with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
